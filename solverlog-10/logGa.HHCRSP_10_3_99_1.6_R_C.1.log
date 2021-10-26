@@ -1,0 +1,148 @@
+--- BRKGA-MP-IPR for HHCRSP ---
+Instance: new-instances/HHCRSP_10_3_99_1.6_R_C.txt
+Seed: 1
+
+Reading data... Problem contains 10 patients  and 3 caregivers.
+
+Summary of supply x demand for each service type:
+Skill 0 has supply = 1 and demand = 2, ratio = 0.5
+Skill 1 has supply = 1 and demand = 1, ratio = 1
+Skill 2 has supply = 1 and demand = 2, ratio = 0.5
+Skill 3 has supply = 1 and demand = 2, ratio = 0.5
+Skill 4 has supply = 1 and demand = 2, ratio = 0.5
+Skill 5 has supply = 2 and demand = 5, ratio = 0.4
+
+Reading parameters...
+Inferred distance function by PR type: kendall-tau
+Building BRKGA data and initializing...
+Evolving 448 generations...
+
+  Gens  Rem    Local   ElDiv NoImpr             Best solution            Time  Op
+                                       Cost     Dist    Tard    TMax 
+*    0  448   102.67   87.12      0   102.67   308.00     0.0     0.0     0.0    
+*    2  446    91.33   59.33      0    91.33   274.00     0.0     0.0     0.0    
+*    4  444    84.33   43.32      0    84.33   253.00     0.0     0.0     0.0    
+    50  398    84.33    0.00     46    84.33   253.00     0.0     0.0     0.0    
+    71  377      inf  110.57      0    84.33   253.00     0.0     0.0     0.1   R
+    72  376   168.00   76.42      0    84.33   253.00     0.0     0.0     0.1    
+Path relinking result: too homogeneous.
+    96  352    84.33    0.00     17    84.33   253.00     0.0     0.0     0.1   P
+   100  348    84.33    0.00     20    84.33   253.00     0.0     0.0     0.1    
+   147  301      inf  114.37      0    84.33   253.00     0.0     0.0     0.1   R
+   148  300   132.33   90.81      0    84.33   253.00     0.0     0.0     0.1    
+   150  298   131.33   42.33      0    84.33   253.00     0.0     0.0     0.1    
+Path relinking result: too homogeneous.
+   192  256    84.33    0.00     38    84.33   253.00     0.0     0.0     0.1   P
+   200  248    84.33    0.00     45    84.33   253.00     0.0     0.0     0.1    
+   222  226      inf  106.24      0    84.33   253.00     0.0     0.0     0.2   R
+   223  225    84.33   70.83      0    84.33   253.00     0.0     0.0     0.2    
+
+  Gens  Rem    Local   ElDiv NoImpr             Best solution            Time  Op
+                                       Cost     Dist    Tard    TMax 
+   250  198    84.33    0.00     27    84.33   253.00     0.0     0.0     0.2    
+Path relinking result: too homogeneous.
+   288  160    84.33    0.00     66    84.33   253.00     0.0     0.0     0.2   P
+   290  158      inf  113.94      0    84.33   253.00     0.0     0.0     0.2   R
+   291  157   149.33   69.68      0    84.33   253.00     0.0     0.0     0.2    
+   300  148    84.33    3.24      7    84.33   253.00     0.0     0.0     0.2    
+   350   98    84.33    0.00     57    84.33   253.00     0.0     0.0     0.3    
+   360   88      inf  113.53      0    84.33   253.00     0.0     0.0     0.3   R
+   361   87   123.33   86.12      0    84.33   253.00     0.0     0.0     0.3    
+Path relinking result: too homogeneous.
+   384   64    84.33    0.00     22    84.33   253.00     0.0     0.0     0.3   P
+   400   48    84.33    0.00     37    84.33   253.00     0.0     0.0     0.3    
+   430   18      inf   97.10      0    84.33   253.00     0.0     0.0     0.3   R
+   431   17    84.33  100.89      0    84.33   253.00     0.0     0.0     0.3    
+   448    0    84.33    0.00     17    84.33   253.00     0.0     0.0     0.3    
+Evolutionary process finished.
+Solution written to 'solution-4302.txt'.
+
+Sorted sequence of worst to best tardiness value:
+Task for patient = 9 with skills = {0,5} and cost = 12.7
+   Vehicle #0 = 0, leaving at = 598.0
+   Vehicle #1 = 1, leaving at = 607.0
+   Increment on distance indicator: 38.0
+   Increment on tard indicator:     0.0
+   Value of tmax indicator:         38.0
+
+Task for patient = 6 with skills = {5,-1} and cost = 13.3
+   Vehicle #0 = 1, leaving at = 663.0
+   Vehicle #1 = -1, leaving at = inf
+   Increment on distance indicator: 2.0
+   Increment on tard indicator:     0.0
+   Value of tmax indicator:         2.0
+
+Task for patient = 7 with skills = {4,-1} and cost = 22.3
+   Vehicle #0 = 2, leaving at = 562.0
+   Vehicle #1 = -1, leaving at = inf
+   Increment on distance indicator: 27.0
+   Increment on tard indicator:     0.0
+   Value of tmax indicator:         27.0
+
+Task for patient = 3 with skills = {3,-1} and cost = 28.3
+   Vehicle #0 = 1, leaving at = 743.0
+   Vehicle #1 = -1, leaving at = inf
+   Increment on distance indicator: 18.0
+   Increment on tard indicator:     0.0
+   Value of tmax indicator:         18.0
+
+Task for patient = 4 with skills = {1,-1} and cost = 33.3
+   Vehicle #0 = 0, leaving at = 670.0
+   Vehicle #1 = -1, leaving at = inf
+   Increment on distance indicator: 15.0
+   Increment on tard indicator:     0.0
+   Value of tmax indicator:         15.0
+
+Task for patient = 2 with skills = {5,-1} and cost = 34.3
+   Vehicle #0 = 2, leaving at = 1001.0
+   Vehicle #1 = -1, leaving at = inf
+   Increment on distance indicator: 3.0
+   Increment on tard indicator:     0.0
+   Value of tmax indicator:         3.0
+
+Task for patient = 8 with skills = {4,-1} and cost = 43.3
+   Vehicle #0 = 2, leaving at = 1073.0
+   Vehicle #1 = -1, leaving at = inf
+   Increment on distance indicator: 27.0
+   Increment on tard indicator:     0.0
+   Value of tmax indicator:         27.0
+
+Task for patient = 10 with skills = {2,5} and cost = 52.7
+   Vehicle #0 = 0, leaving at = 790.0
+   Vehicle #1 = 1, leaving at = 816.0
+   Increment on distance indicator: 28.0
+   Increment on tard indicator:     0.0
+   Value of tmax indicator:         28.0
+
+Task for patient = 5 with skills = {0,5} and cost = 56.0
+   Vehicle #0 = 0, leaving at = 853.0
+   Vehicle #1 = 1, leaving at = 852.0
+   Increment on distance indicator: 10.0
+   Increment on tard indicator:     0.0
+   Value of tmax indicator:         10.0
+
+Task for patient = 1 with skills = {2,3} and cost = 66.0
+   Vehicle #0 = 0, leaving at = 899.0
+   Vehicle #1 = 1, leaving at = 911.0
+   Increment on distance indicator: 30.0
+   Increment on tard indicator:     0.0
+   Value of tmax indicator:         30.0
+
+
+Unused vehicle list: (total = 0 out of 3)
+
+---
+Search finished.
+Total of 448 generations in 0.3 seconds.
+Exchange elite runs: 0
+Implicit path relinking runs: 4
+Reset attempts: 6
+
+Best solution found:
+   Cost: 84.3
+   Total travel time: 253.0
+   Total tardiness time: 0.0
+   Largest tardiness: 0.0
+
+
+84.3
