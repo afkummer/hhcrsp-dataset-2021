@@ -1,0 +1,45 @@
+#######################################
+### Exact MIP solver for the HHCRSP ###
+#######################################
+-- Instance file: new-instances/HHCRSP_400_80_40_1.6_R_C.txt
+-- Max threads: 4
+-- Time limit: 999999 seconds
+-- Use initial solution: No
+Trivial flow violations prevented generating 2785954 variables.
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_Emphasis_Memory                         1
+CPXPARAM_TimeLimit                               999999
+Tried aggregator 1 time.
+Presolve has eliminated 85758 rows and 20395 columns...
+LP Presolve eliminated 85758 rows and 20395 columns.
+Reduced LP has 3172738 rows, 3006202 columns, and 93154563 nonzeros.
+Presolve time = 102.62 sec. (19803.40 ticks)
+Compression time = 23.98 sec. (6.00 ticks)
+Compression reduced 1336.08 MB A matrix to 401.14 MB
+Symmetry aggregator did 5443745 additional substitutions.
+Elapsed time = 128.23 sec. (20633.01 ticks, 1 iterations)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+Iteration:  1772   Dual objective     =           305.833333
+
+Dual crossover.
+  Dual:  Fixing 2527 variables.
+     2526 DMoves:  Infeasibility  6.23834318e-12  Objective  3.08666667e+02
+        0 DMoves:  Infeasibility  2.52502700e-12  Objective  3.08666667e+02
+  Dual:  Pushed 60, exchanged 2467.
+  Primal:  Fixing 2229 variables.
+     2228 PMoves:  Infeasibility  1.80411242e-16  Objective  3.08666667e+02
+        0 PMoves:  Infeasibility  1.67921232e-15  Objective  3.08666667e+02
+  Primal:  Pushed 2069, exchanged 160.
+
+Solution status from MIP model:
+-- Processing time: 171.024 sec.
+-- Memory used: 2056.08 MB
+-- Best bound: inf
+-- Obj value: 308.667
+-- Gap: inf%
+-- Total distance: 926
+-- Total tardiness: 0
+-- Largest tardiness: 0
