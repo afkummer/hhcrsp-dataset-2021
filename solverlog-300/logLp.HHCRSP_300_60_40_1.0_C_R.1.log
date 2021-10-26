@@ -1,0 +1,46 @@
+#######################################
+### Exact MIP solver for the HHCRSP ###
+#######################################
+-- Instance file: new-instances/HHCRSP_300_60_40_1.0_C_R.txt
+-- Max threads: 4
+-- Time limit: 999999 seconds
+-- Use initial solution: No
+Trivial flow violations prevented generating 1201116 variables.
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 4
+CPXPARAM_TimeLimit                               999999
+Parallel mode: deterministic, using up to 4 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 3 threads...
+Tried aggregator 1 time.
+LP Presolve eliminated 50904 rows and 12781 columns.
+Reduced LP has 1465574 rows, 1387851 columns, and 36020934 nonzeros.
+Presolve time = 42.04 sec. (7806.13 ticks)
+Symmetry aggregator did 2435004 additional substitutions.
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+Iteration:  1379   Dual objective     =           426.666667
+
+Dual crossover.
+  Dual:  Fixing 2213 variables.
+     2212 DMoves:  Infeasibility  1.13770104e-12  Objective  4.29000000e+02
+        0 DMoves:  Infeasibility  5.85587134e-13  Objective  4.29000000e+02
+  Dual:  Pushed 55, exchanged 2158.
+  Primal:  Fixing 1919 variables.
+     1918 PMoves:  Infeasibility  9.02056208e-17  Objective  4.29000000e+02
+        0 PMoves:  Infeasibility  2.63677968e-16  Objective  4.29000000e+02
+  Primal:  Pushed 1762, exchanged 157.
+
+Dual simplex solved model.
+
+
+Solution status from MIP model:
+-- Processing time: 69.577 sec.
+-- Memory used: 1268.04 MB
+-- Best bound: inf
+-- Obj value: 429
+-- Gap: inf%
+-- Total distance: 1287
+-- Total tardiness: 0
+-- Largest tardiness: 0
