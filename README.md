@@ -6,7 +6,7 @@ The directory [instances](instances) contains all the instances we generated, us
 
 After these initial computation, we then select, per instance size:
 
-- The top-10 instances with the largest optimality gap, computed as gap% = (UB-LB)/UB * 100.0
+- The top-10 instances with the largest optimality gap, computed as `gap% = (UB-LB)/UB * 100.0`
 - Other 10 instances, selected at random
 
 This way, each instance size comprises 20 distinct instances. We followed this methodology to select instances that are hard to current algorithms, and other instances at random so hopefully the dataset is somewhat future-proof.
